@@ -23,7 +23,7 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-let fullName = me[firstName] + ' ' + me[lastName];
+let fullName = me[0] + ' ' + me[1];
 console.log(fullName);
 
 
@@ -32,7 +32,7 @@ console.log(fullName);
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-console.log(me[favThreeFoods[0]]+ ' ' + me[favThreeFoods[2]])
+console.log(me[4[0]]+ ' ' + me[4[2]])
 
 
 /* 4. Change a property of an existing object.
@@ -41,8 +41,8 @@ console.log(me[favThreeFoods[0]]+ ' ' + me[favThreeFoods[2]])
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
-console.log(me[shoeCount])
-me['shoeCount'] = ((me[shoeCount])++)
+console.log(me[3])
+me['shoeCount'] = ((me[3])++)
 
 
 /* 5. Add a new property to an existing object.
