@@ -42,7 +42,7 @@ console.log(me[favThreeFoods[0]]+ ' ' + me[favThreeFoods[2]])
   - Console.log your updated shoe count. 
 */
 console.log(me[shoeCount])
-me['shoeCount']= parseInt((me[shoeCount])+1 )
+me['shoeCount'] = ((me[shoeCount])++)
 
 
 /* 5. Add a new property to an existing object.
@@ -51,5 +51,7 @@ me['shoeCount']= parseInt((me[shoeCount])+1 )
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
-me = parseInt(me(favoriteColor = 'Blue'))
-console.log(me[favorieColor])
+let favoriteColor = 'Blue';
+
+me.favoriteColor =  favoriteColor
+console.log(me)
